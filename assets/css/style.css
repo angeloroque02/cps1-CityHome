@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Bebas';
+    src: url("../font/BebasNeue-Regular.woff");
+}
+
+@font-face {
+    font-family: 'Caviar';
+    src: url("../font/CaviarDreams.woff");
+}
+#overide {
+    background: #f4f4f4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Caviar;
+
+}
+
+#overide .navbar {
+    background: rgba(0, 30, 75, 0.75);
+    border-bottom: rgba(255, 255, 255, 0.445) solid 1px;
+
+}
+
+#overide .nav-link:hover {
+    background: rgba(255,255,255,0.1);
+    font-size: large;
+    border-bottom: #e5edf4 solid 1px;
+    border-top: #e5edf4 solid 1px;
+
+}
+
+#overide .showcase3d {
+    height: 700px;
+}
+
+.margincontent {
+    width: 100%;
+    /* margin-top: 50px; */
+    padding: 50px;
+}
+.sidemargin {
+    width: 100%;
+    padding: 0 25px;
+    display: flex;
+}
+
+footer {
+    height: 100px;
+    padding-top: 40px;
+    background: #0047b3;
+}
+
+.card-title,
+.carousel-caption {
+    color: #0047b3;
+}
+
+.fixed {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hover-grow {
+
+    height: 100%;
+    width: 100%;
+
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.hover-grow:hover {
+    width: 110%;
+    height: 110%;
+}
+
+.carousel-size {
+    height: 200px;
+
+}
+
+.card-height {
+    min-height: 500px;
+}
+
+.footer {
+    border-bottom: #0047b3 solid 10px;
+}
+
+.margincontent-vert{
+    width: 100%;
+    margin: 60px 0 60px 0;
+}
+
+#bg-vid{
+    width:100%;
+    height:100%;
+}
+
+.logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* .logo a img{
+    
+} */
+
+.gal-row{
+    margin: 50px 0 50px 0;
+}
+
+.misvis{
+    padding: 30px;
+    text-align: center;
+
+}
+
+/* .bgimg{
+    width: 100%;
+    height: 100%;
+    background: url("./assets/img/g4.jpg");
+
+} */
+
+
+
+
